@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>tela de login</title>
+
+    
+</head>
+<body>
+    <form class="login">
+        <h2>Login</h2>
+        <nav >
+            <ul style="list-style-type: none;" class="nave">
+                <li><a href="#">home</a></li>
+                <li><a href="#">contato</a></li>
+                <li><a href="#">suporte</a></li>
+
+
+            </ul>
+        </nav>
+        <div class="box-user" >
+            <input type="text"  id="txtn" name="txtn" required>
+            <label>Usuário</label>
+        </div>
+        <div class="box-user">
+            <input type="password" id="txts" name="txts" required>
+            <label>Senha</label>
+        </div>
+        <div>
+            <a href="#" class="forget" onclick="esqueceu()"> esqueceu a senha?</a>
+        </div>
+        <a href="#" onclick="clicar()" class="btn" >
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Entrar
+        </a>
+        <div class="icones">
+            <a href="#"><img src="imagens-icones/github.png" alt=""></a>
+            <a href="#"><img src="imagens-icones/social.png" alt=""></a>
+            <a href="#"><img src="imagens-icones/twitter.png" alt=""></a>
+        </div>
+    </form>
+    <script src="pasta.js"></script>
+</body>
+</html>
